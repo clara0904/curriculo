@@ -1,0 +1,31 @@
+﻿.container{
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.content{
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between; 
+    max-width: var(--max-width);
+    width: 100%;
+    flex-wrap: wrap;
+    padding-bottom: 2rem;
+}
+
+.title{
+    color: #FFF;
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 2rem;
+}
+
+.cards{
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+    width: 100%;
+}
