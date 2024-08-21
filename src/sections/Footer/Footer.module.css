@@ -1,0 +1,41 @@
+﻿.fundo {
+    background: rgba(17, 33, 45, 0.5); 
+    backdrop-filter: blur(10px); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    width: 100%;
+}
+
+
+.container {
+    justify-content: space-between;
+    align-items: center;
+    max-width: var(--max-width);
+}
+
+.text{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: semi-bold;
+    text-align: center;
+}
+
+
+.icons{
+    color: white;
+    margin-top: 0.8rem;
+    align-items: center;
+}
+
+.icon{
+    padding-left: 0.5rem;
+    cursor: pointer;
+}
+
+.icon:hover{
+    color: #D8BFD8 !important;
+}
