@@ -1,0 +1,47 @@
+﻿.container{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.content{
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 1.25rem;
+}
+
+.title{
+    color: #FFF;
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 1.25rem;
+    
+}
+
+.text{
+    font-size: 1.3rem;
+    color: #FFF;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: justify;
+    margin-bottom: 1.25rem;
+    max-width: 47.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        height: auto;
+        padding: 0.5rem;
+    }
+
+    .title {
+        font-size: 1.2rem;
+    }
+
+    .text {
+        font-size: 1.1rem;
+        padding: 1rem;
+        margin-bottom: 3.5rem;
+    }
+}
