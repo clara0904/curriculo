@@ -1,4 +1,13 @@
+:root{
+  --max-width: 1080px;
+}
+
 .App {
   text-align: center;
+}
+
+body{
+  background: linear-gradient(150deg, #854F6C, #522B2B, #2B124C);
+  background-size: 120% 120%;
 }
 
