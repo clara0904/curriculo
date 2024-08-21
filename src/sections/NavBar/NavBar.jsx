@@ -7,7 +7,7 @@ function NavBar(){
         <div className={styles.fundo}>
             <div className={styles.container}>
                 <div className={styles.title}>
-                    Maria Clara Araújo
+                    <a href='/'>Maria Clara Araújo</a>
                 </div>
                 <div className={styles.icons}>
                     <a href='https://www.linkedin.com/in/maria-clara-ara%C3%BAjo-089305220/' target="_blank" rel="noopener noreferrer">
