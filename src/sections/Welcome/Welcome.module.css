@@ -38,10 +38,17 @@ h4 {
 }
 
 .profile{
-    width: 16.5rem;
-    height: 24rem;
-    border-radius: 40px;
+    width: 17rem;
+    height: 22rem;
+    border-radius: 20px;
+    animation: fadeSlideRight 1s ease forwards;
+    transition: transform 0.4s ease;
 }
+
+.profile:hover {
+    transform: scale(1.05);
+}
+
 
 .icons{
     color: white;
@@ -100,19 +107,47 @@ h4 {
     .profile{
         margin-top: 1rem;
         max-width: 100%;
-        width: 15rem;
-        height: 22rem;
+        width: 18rem;
+        height: 23rem;
     }
 
     h1{
-        font-size: 1.9rem;
+        font-size: 1.7rem;
     }
 
     h4{
-        font-size: 1.1rem;
+        font-size: 0.9rem;
     }
 
     h1,h4{
         text-align: center;
     }
+}
+
+
+
+@keyframes fadeSlideLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeSlideRight {
+    from {
+        opacity: 0;
+        transform: translateX(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.text {
+    animation: fadeSlideLeft 1s ease forwards;
 }
