@@ -1,51 +1,81 @@
-﻿.container{
+﻿.container {
     width: 100%;
     height: auto;
     align-items: center;
     box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    transform: translateY(40px);
+    animation: fadeUp 0.8s ease forwards;
 }
 
-.content{
+.content {
     max-width: var(--max-width);
     margin: 0 auto;
-    padding: 1.25rem;
+    padding: 1rem;
+    padding-bottom: 2rem;
 }
 
-.title{
+.title {
     color: #FFF;
     font-size: 1.8rem;
     font-weight: bold;
-    padding: 1.25rem;
-    margin-top: 0.40rem;
+    padding: 1rem;
+    margin-top: 0.4rem;
+    opacity: 0;
+    transform: translateX(-30px);
+    animation: slideIn 0.7s ease forwards;
+    animation-delay: 0.3s;
 }
 
-.text{
-    font-size: 1.3rem;
-    color: #FFF;
-    padding: 20px;
-    margin: 0 auto;
-    text-align: justify;
-    margin-bottom: 1.25rem;
-    max-width: 47.5rem;
+@keyframes slideIn {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
-.image{
-    width: 10%;
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.image-wrapper {
+    width: 60px;   
+    height: 60px;  
     padding: 10px;
     border: 2px solid rgba(17, 33, 45, 0.3);
-    border-radius: 0.8rem; 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.500);
-    margin: 1rem;
-    display: inline-flex;
+    border-radius: 0.8rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background: rgba(17, 33, 45, 0.2);
+    backdrop-filter: blur(2px);
+    display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(17, 33, 45, 0.2); 
-    backdrop-filter: blur(2px); 
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
-@media (max-width: 700px){
-    .image{
-        width: 13%;
-        margin: 0.5rem;
+.image-wrapper img {
+    width: 90%;        
+    height: 90%;
+    object-fit: contain; 
+}
+
+@media (max-width: 700px) {
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .image-wrapper {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@keyframes fadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
     }
 }
