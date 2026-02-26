@@ -1,4 +1,4 @@
-﻿import styles from './Footer.module.css'
+import styles from './Footer.module.css'
 import { BsLinkedin } from "react-icons/bs";
 import { IoLogoGithub } from "react-icons/io5";
 import { FaWhatsapp } from "react-icons/fa6";

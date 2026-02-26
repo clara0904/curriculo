@@ -1,4 +1,4 @@
-﻿import styles from './Welcome.module.css';
+import styles from './Welcome.module.css';
 import Profile from '../../assets/profile.jpg';
 import { BsLinkedin } from "react-icons/bs";
 import { IoLogoGithub } from "react-icons/io5";

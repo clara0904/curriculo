@@ -1,4 +1,4 @@
-﻿import styles from './Projects.module.css'
+import styles from './Projects.module.css'
 import ProjectsCard from '../../components/Card/ProjectsCard/ProjectsCard';
 import les from '../../assets/les.png'
 import profile from '../../assets/profile.jpg'

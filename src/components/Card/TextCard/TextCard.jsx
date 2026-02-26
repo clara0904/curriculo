@@ -1,4 +1,4 @@
-﻿import styles from './TextCard.module.css';
+import styles from './TextCard.module.css';
 import { checkPropTypes } from 'prop-types';
 
 TextCard.propTypes = {

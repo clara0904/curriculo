@@ -1,4 +1,4 @@
-﻿import styles from './NavBar.module.css'
+import styles from './NavBar.module.css'
 import { BsLinkedin } from "react-icons/bs";
 import { IoLogoGithub } from "react-icons/io5";
 

@@ -1,4 +1,4 @@
-﻿import styles from './ProjectsCard.module.css';
+import styles from './ProjectsCard.module.css';
 import { checkPropTypes } from 'prop-types';
 import { FaArrowRight } from "react-icons/fa";
 

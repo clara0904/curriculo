@@ -1,4 +1,4 @@
-﻿import styles from './Certifications.module.css';
+import styles from './Certifications.module.css';
 import TextCard from '../../components/Card/TextCard/TextCard';
 
 function Certifications(){
