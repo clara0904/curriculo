@@ -22,7 +22,7 @@ function Footer(){
                         <FaWhatsapp className={styles.icon} size={22} color='#FFF'/>
                     </a>
 
-                    <a href='https://www.instagram.com/claraa.py?igsh=MW51Mm1wbjdxc3hvZA==' target="_blank" rel="noopener noreferrer">
+                    <a href='https://www.instagram.com/mclaraverso_?igsh=MW51Mm1wbjdxc3hvZA==' target="_blank" rel="noopener noreferrer">
                         <FaInstagram className={styles.icon} size={22} color='#FFF'/>
                     </a>
                 </div>
