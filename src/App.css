@@ -7,7 +7,12 @@
 }
 
 body{
-  background: linear-gradient(150deg, #854F6C, #522B2B, #2B124C);
+  background: linear-gradient(
+    150deg, 
+    #a36997, 
+    #7C4747,
+    #5E2E6A  
+  );
   background-size: 120% 120%;
 }
 

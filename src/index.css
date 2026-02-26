@@ -9,3 +9,6 @@ body {
     sans-serif;
 }
 
+html, body {
+  overflow-x: hidden;
+}
