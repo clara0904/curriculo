@@ -1,9 +1,10 @@
 import styles from './Skills.module.css'
 import html from '../../assets/html.png'
 import css from '../../assets/css.png'
-import js from '../../assets/js.png'
+import js from '../../assets/js.svg'
+import ts from '../../assets/ts.svg'
 import react from '../../assets/react.png'
-import java from '../../assets/java.png'
+import java from '../../assets/java.svg'
 import angular from '../../assets/angular.png'
 import flutter from '../../assets/flutter.png'
 
@@ -17,6 +18,7 @@ function Skills(){
                     <div className={styles["image-wrapper"]}><img src={html} alt="HTML" /></div>
                     <div className={styles["image-wrapper"]}><img src={css} alt="CSS" /></div>
                     <div className={styles["image-wrapper"]}><img src={js} alt="JS" /></div>
+                    <div className={styles["image-wrapper"]}><img src={ts} alt="TS" /></div>
                     <div className={styles["image-wrapper"]}><img src={react} alt="React" /></div>
                     <div className={styles["image-wrapper"]}><img src={java} alt="Java" /></div>
                     <div className={styles["image-wrapper"]}><img src={angular} alt="Angular" /></div>
