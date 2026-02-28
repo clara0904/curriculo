@@ -17,7 +17,7 @@ function Certifications(){
                 <div className={styles.cards}>
                     <TextCard title={'Defesa de rede (2025)'} description={'Identificação de ameaças, aplicação de princípios de segurança, configuração de mecanismos de proteção e monitoramento de redes para prevenir e mitigar ataques cibernéticos.'} college={'Cisco Networking Academy'}/>
                     <TextCard title={'Nivelamento do Programa Hackers do Bem - Formação em Cibersegurança (2024)'} description={'Conhecimento básico em cibersegurança, arquitetura de computadores, redes, sistemas operacionais, lógica de programação e scripts.'} college={'Rede Nacional de Ensino e Pesquisa'}/>
-                    <TextCard title={'Programação para Ciência de Dados (2024)'} description={'No curso de extensão, foram desenvolvidas competências em Python, abrangendo funções e estruturas de dados, além de manipulação, análise e visualização de dados com NumPy e Pandas.'} college={'UESPI'}/>
+                    <TextCard title={'Programação para Ciência de Dados (2024)'} description={'No curso de extensão, foram desenvolvidas competências em Python, abrangendo manipulação, análise e visualização de dados com NumPy e Pandas.'} college={'UESPI'}/>
                     <TextCard title={'Azure Infra Girls (2024)'} description={'Mentoria em azure exclusivamente para mulheres, oferecido pela Microsoft em parceria com a WoMakersCode.'} college={'Mais Mulheres em Tech'}/>
                 </div>
             </div>
